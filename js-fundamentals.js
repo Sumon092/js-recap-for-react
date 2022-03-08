@@ -48,20 +48,7 @@ console.log(student.name); //Access by direct property
 console.log(student['varsity']);//access by property name string
 console.log(student[myVariable]);//access by other variable.
 
-// ES6 1. template string
-const about = `My name is ${student.name} and my varsity name is ${student.varsity} I my favourite movie is ${student.movies[1]}`;
-console.log(about);
 
-// 2.  arrow function
-const getFiftyFive = () => 55;//parameter less arrow function
-const addSixtyFive = num = num + 65;//single parameter arrow function.
-const isEven = x => x % 2 === 0;//single line arrow odd even;
-const addThree = (x, y, z) = x + y + z;//three parameter single line arrow f.
-const doMath = (num1, num2){
-    const sum = num1 + num2;
-    return sum;
-}//Multiline arrow funciton.
 
-// 3.
 
 
